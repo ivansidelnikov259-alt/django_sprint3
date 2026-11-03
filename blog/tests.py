@@ -1,3 +1,4 @@
-from django.test import TestCase
+# blog/tests.py
+from django.test import TestCase  # noqa: F401
 
 # Create your tests here.

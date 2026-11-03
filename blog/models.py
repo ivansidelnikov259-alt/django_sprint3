@@ -6,6 +6,7 @@ User = get_user_model()
 
 class BaseModel(models.Model):
     """Абстрактная модель с общими полями."""
+
     is_published = models.BooleanField(
         default=True,
         verbose_name='Опубликовано',
